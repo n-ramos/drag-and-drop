@@ -90,7 +90,7 @@ $ yarn run build
   
 <script src="./dist/bundle.js"></script>  
 <script>  
-     var drag = document.getElementById("app").nsdrag({"inputName": "image", "multiple": false}, function(result) {
+     var drag = document.getElementById("app").nrdrag({"inputName": "image", "multiple": false}, function(result) {
       console.log(result) //renvois l'objet uploadé: {imageName: nomDeL'image, imageSize: taille, src: base64Compresse}
      })
 </script>  
